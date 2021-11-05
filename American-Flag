@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="IE=edge" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>American Flag
+  </title>
+
+  <style>
+    .container {
+      display: grid;
+      width: 800px;
+      height: 600px;
+      padding: 3px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(13, 1fr);
+      border: solid black 5px;
+    }
+    .red {
+      background-color: red;
+    }
+    .blue {
+      background-color: blue;
+    }
+    .white {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="blue L1"></div>
+    <div class="red R1"></div>
+    <div class="blue L2"></div>
+    <div class="white R2"></div>
+    <div class="blue L3 "></div>
+    <div class="red R4"></div>
+    <div class="blue L5"></div>
+    <div class="white R6"></div>
+    <div class="blue L6"></div>
+    <div class="red R7"></div>
+    <div class="blue L7"></div>
+    <div class="white R8"></div>
+    <div class="red L8"></div>
+    <div class="red R9"></div>
+    <div class="white"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="red"></div>
+    <div class="white"></div>
+    <div class="white"></div>
+    <div class="red"></div>
+    <div class="red"></div>
+  </div>
+</body>
+</html>
